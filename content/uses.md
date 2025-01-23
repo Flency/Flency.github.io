@@ -1,9 +1,25 @@
+<style>
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+}
+p, li {
+  font-size: 16px;
+}
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+</style>
 
 # About me
 
 Welcome! I am a graduate student at the International Institute of Finance, School of Management, University of Science and Technology of China (USTC). I received my B.S. degree from USTC in 2023.
 
-My research interests mainly cover dimension reduction, high-dimensional statistics, robust statistics, and tensor data analysis. 
+My research interests mainly cover dimension reduction, high-dimensional statistics, robust statistics, and tensor data analysis.
 
 ---
 
