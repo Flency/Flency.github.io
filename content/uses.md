@@ -15,7 +15,7 @@ hr {
 }
 </style>
 
-# About me
+## About me
 
 Welcome! I am a graduate student at the International Institute of Finance, School of Management, University of Science and Technology of China (USTC). I received my B.S. degree from USTC in 2023.
 
