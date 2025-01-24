@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: "Heng Liu (刘珩)" # Website name
+title: "Heng Liu" # Website name
 baseURL: 'https://flency.github.io/' # Website URL
 
 ############################
