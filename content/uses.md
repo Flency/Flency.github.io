@@ -41,4 +41,5 @@ My research interests mainly cover dimension reduction, high-dimensional statist
 
 ### Awards
 
-- **2022/07:** Special Allowance for Mozi Outstanding Youth (First Prize), USTC.
+- **2021/09:** Outstanding student scholarship Silver award, USTC.
+- **2022/09:** Outstanding student scholarship Bronze award, USTC.
