@@ -25,7 +25,7 @@ My research interests mainly cover dimension reduction, high-dimensional statist
 
 ### Education
 
-- **2023/08–2026/05:** Ph.D. in Statistics, University of Science and Technology of China.
+- **2023/08–2026/05:** Master in Statistics, University of Science and Technology of China.
 - **2019/08–2023/06:** B.S. in Statistics, University of Science and Technology of China.
 
 ---
