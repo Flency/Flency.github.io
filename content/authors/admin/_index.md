@@ -21,8 +21,8 @@ superuser: true
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: USTC
-    url: https://www.stanford.edu/
+  - name: University of Science and Technology of China
+#    url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
