@@ -15,7 +15,6 @@ authors:
 tags:
   - Academic
   - Hugo Blox
-  - Markdown
 ---
 
 Welcome 👋
