@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Heng Liu (刘珩), graduate student at the University of Science and Technology of China.">
+    <title>Heng Liu - 刘珩</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="headroom fixed-top">
+      <nav class="navbar" aria-label="Main navigation">
+        <div class="navbar-container">
+          <a class="navbar-brand" href="#home">Heng Liu</a>
+          <button class="navbar-toggler" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+              <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+              <li class="nav-item"><a class="nav-link" href="uploads/resume.pdf">CV</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="home" class="quarto-container page-columns page-layout-article page-navbar">
+      <section class="quarto-about-jolla" aria-labelledby="page-title">
+        <img class="about-image round" src="assets/avatar.jpg" alt="Heng Liu (刘珩)" width="204" height="204">
+        <header class="quarto-title-block default">
+          <div class="quarto-title">
+            <h1 id="page-title" class="title">Heng Liu (刘珩)</h1>
+          </div>
+        </header>
+
+        <main class="content">
+          <p>Graduate student</p>
+          <p>
+            International Institute of Finance<br>
+            School of Management<br>
+            University of Science and Technology of China
+          </p>
+        </main>
+
+        <hr class="about-sep">
+
+        <div class="about-links" aria-label="Profile links">
+          <a class="about-link" href="https://github.com/flency">GitHub</a>
+          <a class="about-link" href="uploads/resume.pdf">CV</a>
+        </div>
+      </section>
+
+      <section id="about" class="content-section" aria-labelledby="about-title">
+        <h2 id="about-title">About</h2>
+        <p>
+          Welcome! I am a graduate student at the International Institute of Finance,
+          School of Management, University of Science and Technology of China (USTC).
+          I received my B.S. degree from USTC in 2023.
+        </p>
+      </section>
+
+      <section id="research" class="content-section" aria-labelledby="research-title">
+        <h2 id="research-title">Research</h2>
+        <p>
+          My research interests mainly cover dimension reduction, high-dimensional
+          statistics, and robust statistics.
+        </p>
+      </section>
+
+      <section id="education" class="content-section" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <dl class="timeline">
+          <div>
+            <dt>University of Science and Technology of China</dt>
+            <dd>B.S. degree, 2023</dd>
+          </div>
+          <div>
+            <dt>University of Science and Technology of China</dt>
+            <dd>Graduate student, School of Management</dd>
+          </div>
+        </dl>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="nav-footer">
+        <div class="nav-footer-center">Copyright 2026, Heng Liu</div>
+      </div>
+    </footer>
+
+    <script>
+      const toggle = document.querySelector(".navbar-toggler");
+      const nav = document.querySelector(".navbar-collapse");
+
+      toggle.addEventListener("click", () => {
+        const isOpen = nav.classList.toggle("show");
+        toggle.setAttribute("aria-expanded", String(isOpen));
+      });
+
+      nav.addEventListener("click", (event) => {
+        if (event.target.matches("a")) {
+          nav.classList.remove("show");
+          toggle.setAttribute("aria-expanded", "false");
+        }
+      });
+    </script>
+  </body>
+</html>
